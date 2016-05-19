@@ -23,15 +23,15 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="12" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
@@ -44,50 +44,65 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                              <Component id="jLabel1" min="-2" pref="155" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                              <Component id="jLabel3" min="-2" pref="160" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel1" min="-2" pref="155" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                       <Group type="102" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel4" alignment="0" min="-2" pref="196" max="-2" attributes="0"/>
-                              <Component id="jLabel5" alignment="0" min="-2" pref="179" max="-2" attributes="0"/>
-                              <Component id="jLabel6" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel4" min="-2" pref="196" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel6" min="-2" pref="150" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
+                          <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="areaId" max="32767" attributes="0"/>
-                      <Component id="textMensaje" max="32767" attributes="0"/>
-                      <Component id="idPost" pref="344" max="32767" attributes="0"/>
-                      <Component id="comentarioPost" max="32767" attributes="0"/>
-                      <Component id="areaLink" max="32767" attributes="0"/>
-                      <Component id="comField" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="textMensaje" min="-2" pref="344" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="comField" pref="344" max="32767" attributes="0"/>
+                          <Component id="areaLink" alignment="1" pref="344" max="32767" attributes="0"/>
+                          <Component id="comentarioPost" alignment="1" pref="344" max="32767" attributes="0"/>
+                          <Component id="idPost" alignment="1" pref="344" max="32767" attributes="0"/>
+                          <Component id="areaId" alignment="1" pref="344" max="32767" attributes="0"/>
+                          <Component id="fieldBusc" alignment="1" max="32767" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace min="189" pref="189" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="extender" min="-2" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="enviarEstado" max="32767" attributes="0"/>
-                          <Component id="enviarLike" max="32767" attributes="0"/>
+                          <Component id="busEnviar" alignment="0" max="32767" attributes="0"/>
+                          <Component id="enviarLink" alignment="0" max="32767" attributes="0"/>
                           <Component id="enviarComentario" max="32767" attributes="0"/>
+                          <Component id="enviarEstado" max="32767" attributes="0"/>
+                          <Component id="enviarLike" alignment="0" max="32767" attributes="0"/>
                       </Group>
-                      <Component id="enviarLink" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="331" max="32767" attributes="0"/>
+                  <EmptySpace pref="47" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -98,44 +113,60 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="textMensaje" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
                       <Component id="jLabel1" alignment="3" max="32767" attributes="0"/>
-                      <Component id="enviarEstado" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="areaId" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
-                      <Component id="jLabel2" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
-                      <Component id="enviarLike" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Component id="enviarEstado" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                              <Component id="idPost" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="comentarioPost" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="enviarLike" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                          <Component id="enviarComentario" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="areaId" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="areaLink" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="enviarLink" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="enviarComentario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="idPost" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="comField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="comentarioPost" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="344" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="areaLink" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="enviarLink" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="comField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fieldBusc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="busEnviar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="238" max="-2" attributes="0"/>
+                  <Component id="extender" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -148,7 +179,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Que estas pensando?-&gt;"/>
+            <Property name="text" type="java.lang.String" value="Que estas pensando =&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="areaId">
@@ -158,12 +189,12 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Introduce ID para dar like-&gt;"/>
+            <Property name="text" type="java.lang.String" value="Introduce ID para dar like=&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Introduce ID de post -&gt;"/>
+            <Property name="text" type="java.lang.String" value="Introduce ID de post =&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="idPost">
@@ -173,7 +204,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Introduce comentario en post -&gt;"/>
+            <Property name="text" type="java.lang.String" value="Introduce comentario en post =&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="comentarioPost">
@@ -191,7 +222,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="enviarLike">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Enviar"/>
+            <Property name="text" type="java.lang.String" value="Like"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enviarLikeActionPerformed"/>
@@ -199,7 +230,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="enviarComentario">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Enviar"/>
+            <Property name="text" type="java.lang.String" value="Comentar"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enviarComentarioActionPerformed"/>
@@ -207,14 +238,14 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Postear Link/Foto  --&gt;"/>
+            <Property name="text" type="java.lang.String" value="Postear Link/Foto      =&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="areaLink">
         </Component>
         <Component class="javax.swing.JButton" name="enviarLink">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Enviar"/>
+            <Property name="text" type="java.lang.String" value="Cometar"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enviarLinkActionPerformed"/>
@@ -222,10 +253,33 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Comentario link/foto -&gt;"/>
+            <Property name="text" type="java.lang.String" value="Comentario link/foto  =&gt;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="comField">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar persona  =&gt;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fieldBusc">
+        </Component>
+        <Component class="javax.swing.JButton" name="busEnviar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="busEnviarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="extender">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Extender Tokens"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="extenderActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
